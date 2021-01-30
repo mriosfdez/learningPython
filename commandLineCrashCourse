@@ -1,21 +1,21 @@
-## 1. Find your current directory
+1. Find your current directory
   1.1 Windows
     1.1.1 cmd prompt or command prompt > cd (current directory) 
   1.2 macOS
     1.2.1 terminal + pwd > shows your current location 
-## 2. Listing all files in a directory
+2. Listing all files in a directory
   2.1 Windows
     2.1.1 dir 
   2.2 macOS
     2.2.1 ls 
-## 3. How to change directory
+3. How to change directory
   3.1 Windows
     3.1.1 cd + name of directory: cd Desktop
     3.1.2 cd .. : move up a directory 
   3.2 macOS
     3.2.1 cd + name of directory: cd Desktop
     3.2.2 cd .. : move up a directory 
-## 4. How to clear the command line screen
+4. How to clear the command line screen
   4.1 Windows
     4.1.1 cls: clear the entire screen 
   4.2 macOS
