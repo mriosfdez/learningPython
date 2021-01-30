@@ -4,8 +4,8 @@
 ##   2. Installing Python with Anaconda
 ##   3. Running Python code
 ##   4. Python Basics 
-###  4.1 Python Numbers
-###  4.2 Python Strings
+    ### 4.1 Python Numbers
+    ###  4.2 Python Strings
 ###   4.3 Python Lists
 ###   4.4 Python Dictionaries
 ###   4.5 Tuples
