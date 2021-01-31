@@ -1,0 +1,31 @@
+Strings are an ordered sequence of characters enclosed with either single or double quotes. 
+
+Since they are ordered we can use indexing to retrieve individual characters or slicing to retrieve a subsection of the original string. 
+
+** These actions use [] and a number index to indicate positions of what you wish to grab
+
+Index starts at 0 
+
+Python also supports reverse indexing. Useful when you don't know how long is your string. 
+
+** For slice notation, [] are also used with the format: [start:stop:step]
+
+- start is a numerical index for the slice start.
+- stop is the index you will go up to but not include
+- step is how large of a jump to make between characters 
+
+*****************************
+
+\n: new line
+\t: tab
+
+***********************
+basic methods: 
+
+stringname.upper() = will uppercase everything
+stringname.lower() = will lowercase everything
+stringname.split() = splits on a particular character, by default splits the split in spaces
+stringname.split(o) = will splits on "o"
+
+print formatting: 
+Example: print("The {a} needs to {b}".format(a=user_name,b=action))
