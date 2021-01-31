@@ -1,10 +1,14 @@
 Strings are an ordered sequence of characters enclosed with either single or double quotes. 
 
+Las cadenas de caracteres se pueden concatenar (+) y repetir (*)
+
 Since they are ordered we can use indexing to retrieve individual characters or slicing to retrieve a subsection of the original string. 
 
 ** These actions use [] and a number index to indicate positions of what you wish to grab
 
 Index starts at 0 
+- "stringname"[1]
+- "stringname"[-1]
 
 Python also supports reverse indexing. Useful when you don't know how long is your string. 
 
@@ -14,6 +18,11 @@ Python also supports reverse indexing. Useful when you don't know how long is yo
 - stop is the index you will go up to but not include
 - step is how large of a jump to make between characters 
 
+- "stringname"[1:3] = brings the interval starting at 1 and ending at 3 (but not including)
+- "stringname"[:y] = brings all characters up to 'y' position
+- "stringname"[x:] = brings all characters from 'x' position
+- "stringname"[0:6:2] = starting point to stopping point at step point
+
 *****************************
 
 \n: new line
@@ -22,10 +31,18 @@ Python also supports reverse indexing. Useful when you don't know how long is yo
 ***********************
 basic methods: 
 
+len() = length of string
+
+
 stringname.upper() = will uppercase everything
 stringname.lower() = will lowercase everything
+stringname.swapcase() = will swapcases 
 stringname.split() = splits on a particular character, by default splits the split in spaces
 stringname.split(o) = will splits on "o"
+stringname.find("xyz") = devuelve un entero que representa la posición donde se inicia la subcadena dentro de otra
+stringname.count("xyz") = devuelve la cantidad de apariciones de la subcadena dentro de otra
+stringname.replace("xyz", "abc") = reemplaza todas las apariciones de una subcadena por otra especificada en el segundo argumento
+stringname.strip("caracter") = elimina caracteres a la izquierda y derecha de una cadena
 
 print formatting: 
 Example: print("The {a} needs to {b}".format(a=user_name,b=action))
