@@ -3,4 +3,21 @@ Numbers in Python have two main forms:
 1. Integers: whole numbers
 2. Floating Point: numbers with decimals  
 
+int()
+float()
+
 Python can perform basic math operations. 
+
++ = suma
+- = resta
+* = multiplicación
+** = Potencia
+/ = División
+// = División, se obtiene la parte entera del cociente
+% = Módulo, se obtiene el resto
+
+Operadores binarios: 
+& = and
+| = or
+<< = Desplazamiento a la izquierda
+>> = Desplazamiento a la derecha 
