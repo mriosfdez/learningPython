@@ -1,0 +1,31 @@
+There are several ways to run Python. 
+
+There are 3 main types of environments: 
+
+## 1. Text Editors
+- General editors for any text file
+- Work with a variety of file types
+- Can be customized with plugins and add-ons
+- Keep in mind, most are not designed with only Python in mind.
+- Most popular **Sublime Text** and **Atom**
+## 2. Full IDE
+- Integrated Development Environments designed specifically for Python
+- Larger programs
+- Only community editions are free
+- Designed specifically for Python, lots of extra functionality
+- Most popular **Pycharm** and **Spyder**
+## 3. Notebook Environmments
+- Great for learning
+- See input and output next to each other 
+- Support in-line markdow notes, visualizations, videos and more
+- Special file formats that are not **.py**
+- No suitable for projects with multiple files
+- Most popular is **Jupyter Notebook**
+
+### How to run Python with Sublime Text
+
+*Technically not free, but gives an unlimited free trial 
+
+### How to run Python with Jypeter Notebook 
+
+*When launching Jupyter a browser is opened, but you don't need Internet conection. 
