@@ -1,0 +1,5 @@
+Sets are unordered collection of unique elements.
+
+We can construct them by using the set() function.
+
+set.add() = adds the element inside ()
