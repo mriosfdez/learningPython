@@ -1,0 +1,56 @@
+Working with files: 
+
+Opening basic text files. 
+
+You may need to open .txt files programmatically and then read or write to them. 
+
+Python has built in capabilities to open basic text files. 
+
+It can open other file types such as .csv or PDF
+
+pwd = to know where you are
+
+How to open files in the same directory that you are: 
+myfile.open("text_file_name")
+myfile.read() = brings back in a string the whole text inside the text file. 
+myfile.seek(0) = returns the cursor to the beginning of the file so we can read it again
+myfile.readlines = returns back a lists of every item as a single line
+myfile.close = to close the text file
+
+
+myfile = open("test_file.txt")
+lines = myfile.read()
+print(lines)
+myfile.close()
+ 
+ =
+
+with open("test_file.txt") as myfile:
+    lines = myfile.read()
+    
+ print(lines)
+ 
+ f = open("test_file.txt",mode="r") == to read the test file / ("test_file.txt","r")
+ f.read()
+ 
+ f.close()
+ 
+ f = open("test_file.txt",mode="w")
+ f.write("new line")
+ 
+ f.close()
+ 
+ with open("test_file.txt") as f:
+  print(f.read())
+  
+  When we use the "w" mode overwrites the file. 
+  
+  with open("slñjfdfa.txt","a") as f:
+    f.write("\nsome other line")
+    
+  with open("slñjfdfa.txt","r") as f:
+    print(f.read())
+    
+  To append content 
+
+C:\\Users\\marta\\Documents\\CURSOS\\Python
