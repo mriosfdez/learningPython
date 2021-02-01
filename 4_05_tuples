@@ -1,0 +1,8 @@
+Tuples are very similar to a list. 
+
+Tuples are ordered sequences of objetcts. They used ()
+
+They are immutable. Once you've assigned an object to a position in a tuple, you cannot reassign it. 
+
+tuples.count()
+tuples.index()
