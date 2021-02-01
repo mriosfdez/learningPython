@@ -1,0 +1,9 @@
+Dictionaries are unordered mappings for storing objetcts and cannot be sorted.
+
+Dictionaries use a key-value pairing. This key-value pair allows users to quickly grab objects without needing to know an index location.
+
+Dictionaries use {} and colons to signify the keys and their associated values.
+
+dictionary.keys() = brings back all the keys included in a dictionary
+dictionary.values() = brings back all the values
+dictionary.items() = brings back all the pairs
