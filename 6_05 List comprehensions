@@ -1,0 +1,4 @@
+List comprehensions are a unique way of quickly creating a list with Python.
+
+s = "somestring"
+mynewlist = [letter for letter in s]
