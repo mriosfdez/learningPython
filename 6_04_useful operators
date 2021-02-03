@@ -1,0 +1,37 @@
+RANGE: Use for iterating, but does not save it 
+
+for num in range(0,11):
+    print(num)
+    
+for num in range(0,101,5):
+    print(num)
+    
+ENUMERATE: creates a list of tuples where the first item in the tuple is the count where you are, 
+
+ZIP: to add several lists together and get back a tuple. Although you can also get the result as a list. 
+
+mylist1 = [1,2,3,4,5]
+mylist2 = ["a", "b", "c", "d", "e"]
+
+for item in zip(mylist1,mylist2):
+    print(item)
+    
+ list(zip(mylist1,mylist2))
+ 
+ You will only zip at the point of the shortert list. 
+
+IN operator: to check if something is inside some object 
+ 
+MAX and MIN operator: to check the max and min value in a list
+ 
+max(mylist)
+min(mylist)
+
+
+from random import shuffle == desordena la lista 
+shuffle(mylist)
+
+from random import randint == saca un número aletario 
+randint(0,100)
+
+AND / OR / NOT = para booleanos 
