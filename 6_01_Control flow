@@ -1,0 +1,33 @@
+Control flow allow us to add logic to our code.
+
+We can specify under what conditions we want certain code to execute.
+
+To do this, we use the if, elif and else statements. 
+
+Comparison Operators: 
+
+> Greater than
+< Less than
+>= Greater than or equal to
+<= Less than or equal to
+== Equals
+!= not equal 
+
+Control flow will use boolean conditions to decide whether or not to execute a block of code. 
+
+Recall that booleans are True or False objects. 
+
+Comparisson operations will return boolean values that we can use for control flow. 
+
+Control flow syntax makes use of colons and indentation (whitespace)
+
+if some_condition:
+  # execute some code
+  
+ if 1==2:
+  print("Whoah")
+ elif 1==1:
+  print("One if equal to one")
+ else:
+  print("Everything normal")
+  
