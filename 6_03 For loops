@@ -1,0 +1,21 @@
+For loops
+
+Many objects in Python are "iterable", meaning we can iterate over every element in the objetct. 
+
+Such as every element in a list or every characters in a string.
+
+We can use for loops to execute a block of code for every iteration. 
+
+mylist = [1,2,3]
+for item in mylist:
+  print(item)
+  
+  >> 1
+  >>2
+  >> 3
+  
+  for num in mylist:
+    print(num,end=" ")
+    ### to print out just in one line. 
+    
+    >> 1 2 3 4
