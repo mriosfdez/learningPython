@@ -1,0 +1,14 @@
+While loops allows us to repeat code multiple times. 
+
+The first basic loop is the while loop, which will continually execute a block of code while a condition remains True
+
+x = 1 
+while x <= 3:
+  print(x)
+  
+  #Keep adding 1 to x variable
+  x = x + 1
+  
+  >> 1
+  >> 2
+  >> 3
