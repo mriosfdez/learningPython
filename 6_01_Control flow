@@ -31,3 +31,25 @@ if some_condition:
  else:
   print("Everything normal")
   
+tiempo = input("Soleado o nuboso: ")
+
+if tiempo == "soleado":
+  print("Iremos a la playa")
+print("Qué bien")
+
+if tiempo == "soleado":
+  print("Iremos a la playa")
+else:
+  print("Nos quedaremos en casa")
+  
+if tiempo == "soleado":
+  print("iremos a la playa")
+elif tiempo == "nublado":
+  print("daremos un paseo")
+else:
+  print("nos quedaremos en casa")
+
+Si se cumple la condición, se ejecuta ese bloque y se sale de la estructura. 
+Si ninguna condición es cierta, se ejecuta "else". 
+
+
