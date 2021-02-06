@@ -12,3 +12,12 @@ while x <= 3:
   >> 1
   >> 2
   >> 3
+  
+  
+  Salir de un bucle infinito: 
+  
+  Kernel en Anaconda 
+  
+  Ctr + C en Python IDE 
+  
+  Para salir de bucles infinitos con True usando break. 
