@@ -19,3 +19,46 @@ for item in mylist:
     ### to print out just in one line. 
     
     >> 1 2 3 4
+
+Se utiliza para recorrer los elementos de una lista.
+
+También permite iterar sobre tupla, conjunto (set), cadena o diccionario. 
+
+La construcción utiliza una variable que en cada ciclo toma el valor de un nuevo elemento de la lista de la cláusula in. 
+
+Esta variable que usamos en la construcción se declara en tiempo de ejecución. 
+
+El bucle terminará cuando se alcance el último elemento de la lista o cuando se fuerce su fin con break.
+
+Se puede usar la función range(): para iterar sobre una secuencia de números. 
+  range(x): recorre el valor de 0 a x-1.
+  range(x,y): recorre el valor desde x hasta y-1.
+  range(x,y,s): recorre el valor desde x hasta y-1 de s en s. 
+  
+  Existen métodos que nos ayudan en las iteraciones: 
+  
+  - Cuando iteramos en diccionarios se puede obtener la clave y el valor con items()
+  dic = {"piso1":"Juan", "piso2":"Pepe"}
+  for k,v in dic.items():
+      print(k,v)
+  
+  - Cuando iteramos sobre secuencias se puede obtener el índice de posición junto con el valor con enumerate().
+  for i,v in enumerate["a","b","c"]
+    print(i,v)
+    
+  - Cuando iteramos sobre dos valores pueden emparejarse con zip().
+  preguntas = ["nombre", "apellido", "dirección"]
+  datos = ["Pepe", "López", "Madrid"]
+  for i,v in zip(preguntas,datos):
+    print(i,v)
+    
+- Para iterar sobre una secuencia en orden inverso: reversed().
+  for i in reveserd([0,1,2,3,4])
+    print(i)
+    
+ - Para iterar sobre una secuencia ordenada sorted().
+ for i in sorted([0,3,2,31]):
+  print(i)
+  
+  
+   
