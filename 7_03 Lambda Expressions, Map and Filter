@@ -1,0 +1,62 @@
+Map and Filter are built-in functions in Python that allow you to efficiently apply functions to lists. 
+
+The Map functions allows you to map a function to iterable objects. It applies to the entire list. 
+
+def square(num):
+  return num**2
+  
+ my_nums = [1,2,3,4,5]
+ 
+ for item in map(square,my_nums)>
+    print(item)
+    
+ list(map(square,my_nums))
+
+The filter() functions is similar to the map() function, but instead of applying to the whole list, it only returns to booleans values and then you passed into a list that returns our filter. 
+
+def check_even(num):
+    return num%2 == 0
+    
+ check_even(10)
+ 
+ True
+ 
+ nums = [1,2,3,4,5,6]
+ 
+ list(filter(check_even,nums))
+ 
+ [2,4,6]
+
+
+Lambda expressions are useful in this context because they allow for the creation of functionality without the full normal syntax of a normal Python function. 
+
+It allows to create anonymous functions. 
+
+def square(num:)
+    result = num**2
+    return result
+   
+square(4)
+16
+
+OR
+
+lambda num:num**2
+
+
+list(map(lambda num:num**2,[1,2,3]))
+[1,4,9]
+
+list(filter(lamba n:n%2==0,[1,2,3,4,5]))
+[2,4]
+
+lambda s:s[0] >> to return the first index of a string
+
+lambda s: s[::-1] >> to reverse the string
+
+lambda x,y:x+y
+
+Not every function can be converted into a lambda expression 
+
+
+
