@@ -46,3 +46,7 @@ stringname.strip("caracter") = elimina caracteres a la izquierda y derecha de un
 
 print formatting: 
 Example: print("The {a} needs to {b}".format(a=user_name,b=action))
+print("I {} {} {}".format("I","love","Python.")) >> I love Pyhon. 
+
+
+The str() functions converts non strings into strings. 
