@@ -5,6 +5,7 @@ Numbers in Python have two main forms:
 
 int()
 float()
+.Nf N = The number of decimal places. 
 
 Python can perform basic math operations. 
 
