@@ -15,4 +15,21 @@ class NameOfClass():  ## class names have to be in capital letters
         print(self.param1)
         
         
+        
+        
+class Sample():
+    pass   
+    
+x = Sample
+
+type = (x)
+
+class Agent():
+    def __init__(self,real_name):
+        self.real_name = real_name
+        
+x = Agent("James Bond")
+        
+x.real_name
+>> it should return the name
    
