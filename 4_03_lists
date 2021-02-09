@@ -6,7 +6,10 @@ Lists support indexing and slicing.
 
 Lists can be nested and also have a variety of useful methods that can be called off of them. 
 
+Some methods: 
+
 mylist.append(x) = appends what's inside the ()
+mylist.count(2) = shows how many times the parameter appears inside the list. 
 mylist.pop() = removes the latest item in the list
 mylist.pop(0) = removes the first item 
 mylist.reverse() = reverse the list content
