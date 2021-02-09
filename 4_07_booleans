@@ -2,3 +2,9 @@ Booleans are data types that indicates a logical state of True or False.
 
 Python also has a placeholder object called None.
 
+==  Equal to
+>   Greater than
+>=  Greater than or equal
+<   Less than
+<=  Less than or equal
+!=  Not equal 
