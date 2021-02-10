@@ -15,3 +15,10 @@ mylist.pop(0) = removes the first item
 mylist.reverse() = reverse the list content
 mylist.sort() = sorts the list content in order 
 mylist.insert(position, item) = inserts a new item at the given position
+mylist.extend() = we have to create a new list, add the values we want to add to our first list and then we can apply this method. 
+
+Slicing: 
+
+list[index1:index2] 
+list[:index2]
+list[index1:]
