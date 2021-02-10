@@ -5,5 +5,9 @@ Dictionaries use a key-value pairing. This key-value pair allows users to quickl
 Dictionaries use {} and colons to signify the keys and their associated values.
 
 dictionary.keys() = brings back all the keys included in a dictionary
-dictionary.values() = brings back all the values
+dictionary.values() = returns a list of the values sorted in that dictionary 
 dictionary.items() = brings back all the pairs
+
+dictionary[key] = value > to add or change values
+del dictionary[key] > remove items from a dictionary 
+value in dictionary.values() > to determine if a value exists
