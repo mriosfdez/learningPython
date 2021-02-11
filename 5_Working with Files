@@ -8,14 +8,56 @@ Python has built in capabilities to open basic text files.
 
 It can open other file types such as .csv or PDF
 
+
 pwd = to know where you are
 
 How to open files in the same directory that you are: 
+
+open() - Built-in Function that opens a file and returns a file object. 
+
+open(path_to_file)
+
+
+Files modes to open: 
+r = Open for reading(default)
+w = Open for writing, truncating first
+x = Create a new file and open it for writing
+a = Open for writing, appending to file 
+
++ = Open a file for updating (read/write)
+b = Binary mode (images, videos and compress files among others)
+t = Text mode(default) 
+
+
+open("/pics/cat.jpg",rb)
+
+
+Carriage returns and Line Feeds
+\r = Carriage Return
+\n = New line
+\r\n = Windows style line endings
+\n = Mac line endings 
+
 myfile.open("text_file_name")
-myfile.read() = brings back in a string the whole text inside the text file. 
+myfile.read() = returns in a string the whole text inside the text file. Then the current position will be the actual end of the file. So if you call read() again an empty string will be return since there are no more data to show. 
+myfile.read(3) = returns the position 3(byte) of the file
+myfile.seek(offset) = change the current position to offeset. 
 myfile.seek(0) = returns the cursor to the beginning of the file so we can read it again
+myfile.seek(5) = returns the 5byte of the file
+myfile.tell() = returns the current position in the file. 
 myfile.readlines = returns back a lists of every item as a single line
-myfile.close = to close the text file
+myfile.close() = to close the text file
+
+To automatically close a file use: 
+
+with open(file_path) as file_object_variable_name:
+  code block
+  
+To read a line at a time, use a for loop: 
+with open(file.txt) as the_file:
+  for line in the_file:
+    print(line.rstrip())
+    
 
 
 myfile = open("test_file.txt")
