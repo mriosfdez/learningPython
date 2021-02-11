@@ -2,7 +2,34 @@ Tuples are very similar to a list.
 
 Tuples are ordered sequences of objetcts. They used ()
 
-They are immutable. Once you've assigned an object to a position in a tuple, you cannot reassign it. 
+tuple_name = (item1, item2, item2)
+
+They are immutable. You can not change a value. Once you've assigned an object to a position in a tuple, you cannot reassign it. 
+
+Values accessed by index. 
+
+Iteration, looping and concatenation. 
+
+for item_variable in tuple_name:
+    code block
+
+Use when data sould not change. 
 
 tuples.count()
 tuples.index()
+tuple_name[index]
+del tuple_name = to delete de tuple 
+
+list() = Built-in function returns a list. 
+tuple() = Built-in function returns a tuple. 
+type() = Built-in function returns an object's type. 
+max()
+min() 
+
+You can use tuple assignment to assign values to multiple variables at once and it can be used in for loops: 
+(var1, varN,) = (value1, valueN) 
+
+
+
+
+
