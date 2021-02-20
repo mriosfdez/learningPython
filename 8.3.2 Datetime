@@ -1,0 +1,21 @@
+Datetime
+
+import datetime
+
+Creating a datetime object: 
+
+t = datetime.time(1,15,5)
+type(t) > datetime.time
+t.hour > 1
+t.minute > 15
+t.second > 5
+t.microsecond > 0
+
+Creating a date object: 
+
+datetime.data(2021,02,20) > you are setting the date
+
+datetime.data.today() > returns today's date
+
+datetime.datetime.now() > returns actual date and time
+
