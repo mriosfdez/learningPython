@@ -1,0 +1,7 @@
+Modules: 
+
+To install publicly available modules you can use: 
+
+pip install name_of_library
+
+This will install the library requested. 
